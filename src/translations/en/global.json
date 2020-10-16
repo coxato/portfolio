@@ -1,0 +1,23 @@
+{
+    "nav": {
+        "about": "About me",
+        "skills": "Skills",
+        "portfolio": "Portfolio",
+        "education": "Education",
+        "contact": "Contact",
+        "language": "Cambiar a Español"
+    },
+
+    "hero": {
+        "description": "Web developer specialized in JavaScript",
+        "learn-more": "Learn more"
+    },
+
+    "about-me": {
+        "title": "About me",
+        "description-a": "Hi!, I'm Carlos Martínez a web developer specialized in JavaScript, I have more than",
+        "description-b": "years of experience in building modern web applications. I am currently",
+        "description-c": "years old, I keep learning and improving every day because technology never stops.",
+        "description-d": "I specialize more than anything in the MERN stack (mongodb, express, react, node), but I also have knowledge of python and other libraries."
+    }
+}

@@ -1,0 +1,136 @@
+#nav-container{
+    position: fixed;
+    width: 100%;
+    background: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    z-index: 10;
+}
+
+#nav-center{
+    display: flex;
+    align-items: center;
+}
+
+.hamburguer{
+    display: none;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.hamburguer img{
+    width: 35px;
+    height: 29px;
+}
+
+.close{
+    display: none;
+    width: 90%;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.close img{
+    width: 35px;
+    height: 29px;
+    margin-right: 15px;
+}
+
+.nav-link{
+    padding: 8px 7px;
+    margin: 0 10px;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-link:before{
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    border: 3px solid transparent;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.nav-link:after{
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    border: 3px solid transparent;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+
+.nav-link:hover:before{
+    height: 100%;
+    width: 100%;
+    border-right: none;
+    border-bottom: none;
+    transition: height .2s ease-out, width .2s ease-out .2s;
+    border-color: var(--amber);
+}
+
+.nav-link:hover:after{
+    height: 100%;
+    width: 100%;
+    border-left: none;
+    border-top: none;
+    transition: height .2s ease-out, width .2s ease-out .2s;
+    border-color: var(--amber);
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: var(--marmol);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 780px){
+    #nav-container{
+        justify-content: flex-start;
+    }
+
+    #nav-center{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: var(--dark-blue);
+        width: 100%;
+        height: 100vh;
+        padding: 30px 10px;
+        transition: .3s ease-in;
+        left: -200%;
+    }
+
+    #nav-center.active{
+        left: 0;
+    }
+
+    .hamburguer{
+        display: flex;
+    }
+
+    .close{
+        display: flex;
+    }
+
+    .nav-link{
+        padding: 10px 0px;
+        cursor: pointer;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+}

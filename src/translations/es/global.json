@@ -1,0 +1,23 @@
+{
+    "nav": {
+        "about": "Acerca de mi",
+        "skills": "Habilidades",
+        "portfolio": "Portafolio",
+        "education": "Educación",
+        "contact": "Contacto",
+        "language": "Change to English"
+    },
+
+    "hero": {
+        "description": "Desarrollador web especializado en JavaScript",
+        "learn-more": "Conocer más"
+    },
+
+    "about-me": {
+        "title": "Acerca de mi",
+        "description-a": "Hola!, soy Carlos Martínez, desarrollador web especializado en javascript, cuento con mas de",
+        "description-b": "años de experiencia en la construcción de aplicaciones web modernas. Actualmente tengo",
+        "description-c": "años de edad, sigo aprendiendo y mejorando cada día ya que la tecnología nunca para.",
+        "description-d": "Me especializo mas que nada en el stack MERN (mongodb, express, react, node), pero también tengo conocimientos de python y otras librerías."
+    }
+}

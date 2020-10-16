@@ -1,0 +1,12 @@
+.language-flat-container{
+    /* width: 40px; */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.language-flat-container img{
+    width: 42px;
+    height: 29px;
+}

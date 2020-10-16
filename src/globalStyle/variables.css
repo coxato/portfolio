@@ -1,0 +1,19 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* variable */
+:root{
+    /* colors pallete */
+    --amber: #ffbf00ff;
+    --blue: #6f9cebff;
+    --black: #040b0eff;
+    --dark-blue: #2f4858ff;
+    --red: #f71735ff;
+    --white: #f5f5f5;
+    --light: #eaf2efff;
+    --marmol: #ebebeb; 
+
+    /* fonts */
+    --sans-pro: 'Source Sans Pro', sans-serif;
+    --commissioner: 'Commissioner', sans-serif; 
+}

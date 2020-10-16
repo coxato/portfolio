@@ -1,0 +1,13 @@
+.section-title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 0.1;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+/* .section-title-container h1{
+
+} */
