@@ -19,5 +19,9 @@
         "description-b": "years of experience in building modern web applications. I am currently",
         "description-c": "years old, I keep learning and improving every day because technology never stops.",
         "description-d": "I specialize more than anything in the MERN stack (mongodb, express, react, node), but I also have knowledge of python and other libraries."
+    },
+
+    "skills": {
+        "title": "Skills"
     }
 }

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import SmoothScroll from 'smooth-scroll';
 import 'particles.js/particles';
 // images
 import githubImg from '../../img/github.png';
@@ -12,6 +13,12 @@ const particlesJS = window.particlesJS;
 
 const Hero = () => {
     const { t } = useTranslation('global');
+
+    const handleScroll = () => {
+        const scroll = new SmoothScroll(),
+        elmt = document.getElementById('about');
+        scroll.animateScroll(elmt);
+    }
 
     useEffect(() => {
         const jsonPath = window.innerWidth <= 770 ? './particlesjs-mobile-config.json' : './particlesjs-config.json'; 
@@ -42,7 +49,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="hero-button-container">
-                <button className="learn-more-button">{t('hero.learn-more')}</button>
+                <button onClick={handleScroll} className="learn-more-button">{t('hero.learn-more')}</button>
             </div>
         </div>
      );

@@ -12,7 +12,7 @@ const About = () => {
     const { t } = useTranslation('global');
 
     return ( 
-        <div id="about-container">
+        <div id="about">
            <SectionTitle title={t("about-me.title")} />
            <div className="about-description-container">
                 <p className="first-letter">

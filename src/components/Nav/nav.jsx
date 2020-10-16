@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import SmoothScroll from 'smooth-scroll';
 // components
 import ChangeLanguage from './changeLanguage';
 // images
@@ -12,10 +13,26 @@ const Nav = () => {
     const { t } = useTranslation('global');
     const [menuOpen, setMenuOpen] = useState(false);
 
-    const showMenu = () => {
+    // smooth scroll
+    const scrollTo = target => {
+        const scroll = new SmoothScroll();
+        let anchor;
+        if(target.tagName === 'DIV') anchor = target.querySelector('a');
+        else if(target.tagName === 'A') anchor = target;
+
+        if(anchor){
+            const id = anchor.hash.replace('#', '');
+            const elmt = document.getElementById(id);
+            if(elmt) scroll.animateScroll(elmt);
+        }
+    }
+
+    // show and hide menu, also handle caller for smooth-scroll
+    const showMenu = (ev) => {
         const menu = document.getElementById('nav-center');
         menuOpen ? menu.classList.remove('active') : menu.classList.add('active');
         setMenuOpen(!menuOpen); 
+        scrollTo(ev.target);
     }
 
     return (
@@ -30,19 +47,19 @@ const Nav = () => {
                 </div>
 
                 <div className="nav-link" onClick={showMenu}>
-                    <a href="/">{t("nav.about")}</a>
+                    <a data-scroll href="#about">{t("nav.about")}</a>
                 </div>
                 <div className="nav-link" onClick={showMenu}>
-                    <a href="/">{t("nav.skills")}</a>
+                    <a data-scroll href="#skills" >{t("nav.skills")}</a>
                 </div>
                 <div className="nav-link" onClick={showMenu}>
-                    <a href="/">{t("nav.portfolio")}</a>
+                    <a data-scroll href="#portfolio">{t("nav.portfolio")}</a>
                 </div>
                 <div className="nav-link" onClick={showMenu}>
-                    <a href="/">{t("nav.education")}</a>
+                    <a data-scroll href="#education">{t("nav.education")}</a>
                 </div>
                 <div className="nav-link" onClick={showMenu}>
-                    <a href="/">{t("nav.contact")}</a>
+                    <a data-scroll href="#contact">{t("nav.contact")}</a>
                 </div>
             </div>
 
