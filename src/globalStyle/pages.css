@@ -6,3 +6,24 @@
     position: relative;
     font-family: var(--commissioner);
 }
+
+/* progress bar and right bar */
+progress {
+    background-color: var(--light);
+    border-radius: 10px;
+    border: 2px solid var(--dark-blue);
+}
+progress::-webkit-progress-bar {
+    background-color: var(--light);
+    border-radius: 10px;
+    border: 2px solid var(--dark-blue);
+}
+progress::-webkit-progress-value {
+    background-color: var(--blue);
+    border-radius: 10px 0 0 10px;
+} 
+progress::-moz-progress-bar {
+    background-color: var(--light);
+    border-radius: 10px;
+    border: 2px solid var(--dark-blue);
+}

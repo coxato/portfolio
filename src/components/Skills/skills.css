@@ -4,5 +4,60 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background: var(--dark-blue); */
     background: var(--amber);
+}
+
+.skills-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    text-align: center;
+}
+
+.skills-type{
+    padding: 15px;
+    background: var(--black);
+    color: white;
+    border-radius: 0.8rem;
+    margin-top: 15px;
+    transition: .3s;
+    box-shadow: 0 0 1px 1px var(--dark-blue);
+    border: 3px solid var(--dark-blue);
+}
+
+.skills-type:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 5px 2px 2px var(--black);
+}
+
+/* ===== skill item ===== */
+.skill{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.skill-imageAndName{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.skill-imageAndName p{
+    width: 100%;
+    text-align: center;
+}
+
+.skill-percentage-container{
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 770px){
+    .skills-container{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }

@@ -1,0 +1,21 @@
+.section-title-container,
+.subtitle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 0.1;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+.subtitle-container{
+    border-bottom-width: 0px;
+}
+
+.subtitle-container h3{
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    line-height: 1;
+    margin: 5px 0;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './sectionTitle.css';
+import './titles.css';
 
 const SectionTitle = ({ title, borderBottomColor = '#ffbf00'}) => {
     return (

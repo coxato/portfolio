@@ -22,6 +22,8 @@
     },
 
     "skills": {
-        "title": "Habilidades"
+        "title": "Habilidades",
+        "languages": "Lenguajes",
+        "frameworksAndLibraries": "Frameworks y librerías"
     }
 }
