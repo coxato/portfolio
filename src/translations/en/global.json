@@ -25,5 +25,18 @@
         "title": "My skills",
         "languages": "Languages",
         "frameworksAndLibraries": "Frameworks and libraries"
+    },
+
+    "portfolio": {
+        "title": "Portfolio",
+        "descriptions": {
+            "Img2save": "Website to download wallpapers. Powered by unsplash, pixabay and flickr APIs",
+            "MasPlay": "Website for video game rental business, users can register and earn points to redeem for prizes",
+            "Guárico": "Website for the Guárico state, located in Venezuela, make with Django",
+            "Chat messages": "Real time chat using socket.io and react",
+            "nested-selects": "Library for manage multiple nested <select>, made in vanillajs",
+            "nested-selects-react": "Component/Library for react that makes it easy to handle multiple nested <select>. Documentation included"
+        },
+        "github-repos-link": "See more projects"
     }
 }

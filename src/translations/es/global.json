@@ -25,5 +25,18 @@
         "title": "Habilidades",
         "languages": "Lenguajes",
         "frameworksAndLibraries": "Frameworks y librerías"
+    },
+
+    "portfolio": {
+        "title": "Portafolio",
+        "descriptions": {
+            "Img2save": "Sitio web para descargar fondos de pantalla, funciona usando las API's de unsplash, pixabay y flickr",
+            "MasPlay": "Web para negocio de alquiler de videojuegos, los usuarios se registran y optienen puntos para canjearlos por premios",
+            "Guárico": "Web sobre el estado Guárico ubicado en Venezuela, hecho con Django",
+            "Chat messages": "Chat en tiempo real usando socket.io y react",
+            "nested-selects": "Librería para manejar múltiples <select> anidados, hecho en vanillajs",
+            "nested-selects-react": "Librería/componente para react que permite manejar múltiples <select> anidados. Documentación incluida"
+        },
+        "github-repos-link": "Ver más proyectos"
     }
 }

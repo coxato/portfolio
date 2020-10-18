@@ -21,7 +21,7 @@ const Hero = () => {
     }
 
     useEffect(() => {
-        const jsonPath = window.innerWidth <= 770 ? './particlesjs-mobile-config.json' : './particlesjs-config.json'; 
+        const jsonPath = window.innerWidth <= 800 ? './particlesjs-mobile-config.json' : './particlesjs-config.json'; 
         particlesJS.load('hero-container', jsonPath);
     }, []);
 

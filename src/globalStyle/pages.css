@@ -27,3 +27,20 @@ progress::-moz-progress-bar {
     border-radius: 10px;
     border: 2px solid var(--dark-blue);
 }
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #886602;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #21323d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1b252c;
+}

@@ -60,6 +60,12 @@ export const mySkills = {
             imageWidth: 25
         },
         {
+            name: 'Redux',
+            image: lngLogo['redux'],
+            percentage: 80,
+            imageWidth: 28
+        },
+        {
             name: 'Express',
             image: lngLogo['express'],
             percentage: 80,
@@ -74,6 +80,12 @@ export const mySkills = {
         {
             name: 'Firebase',
             image: lngLogo['firebase'],
+            percentage: 70,
+            imageWidth: 26
+        },
+        {
+            name: 'Socket.io',
+            image: lngLogo['socketioWhite'],
             percentage: 70,
             imageWidth: 26
         },
