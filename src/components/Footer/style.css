@@ -17,3 +17,9 @@
     height: 32px;
     margin-right: 15px;
 }
+
+@media screen and (max-width: 400px){
+    #footer{
+        padding: 15px 18px;
+    }
+}

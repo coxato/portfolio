@@ -21,7 +21,9 @@ const Education = () => {
                     <p className="edu-p p2">{t("education.description-b")}</p>
                 </div>
                 
-                <Subtitle title={t("education.subtitle")} />
+                <div id="subtitle-education">
+                    <Subtitle title={t("education.subtitle")} />
+                </div>
 
                 <div className="certificates-container">
                     {
