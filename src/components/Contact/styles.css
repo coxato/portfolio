@@ -1,0 +1,106 @@
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+    background: var(--amber);
+}
+
+.contact-form-container{
+    width: 500px;
+}
+
+#contact-form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 7px;
+    /* background: var(--marmol); */
+}
+
+#contact-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.field textarea{
+    resize: vertical;
+    min-height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    outline: none;
+}
+
+.field input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    outline: none;
+}
+
+.field input:focus,
+.field textarea:focus{
+    border: 2px solid var(--black);
+}
+
+.field label{
+    font-family: var(--sans-pro);
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* button with loader */
+.button-with-loader{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 2px 0;
+    margin-top: 7px;
+}
+
+.button-with-loader button{
+    font-size: 18px;
+    font-weight: bold;
+    background: var(--white);
+    padding: 8px 25px;
+    border: 2px solid transparent;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: .3s;
+    width: 100%;
+    outline: none;
+    height: 50px;
+}
+
+.button-with-loader button:hover{
+    background: var(--amber);
+    border-color: var(--black);
+}
+
+
+@media screen and (max-width: 600px){
+    .contact-form-container{
+        width: 300px;
+    }
+}

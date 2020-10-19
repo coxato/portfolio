@@ -13,6 +13,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     text-align: center;
+    margin-top: 10px;
 }
 
 .skills-type{

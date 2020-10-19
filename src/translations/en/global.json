@@ -30,13 +30,44 @@
     "portfolio": {
         "title": "Portfolio",
         "descriptions": {
-            "Img2save": "Website to download wallpapers. Powered by unsplash, pixabay and flickr APIs",
-            "MasPlay": "Website for video game rental business, users can register and earn points to redeem for prizes",
-            "Guárico": "Website for the Guárico state, located in Venezuela, make with Django",
+            "Img2save": "Website to download wallpapers. Powered by unsplash, pixabay and flickr APIs.",
+            "MasPlay": "Website for video game rental business, users can register and earn points to redeem for prizes.",
+            "Guárico": "Website for the Guárico state, located in Venezuela, make with Django.",
             "Chat messages": "Real time chat using socket.io and react",
-            "nested-selects": "Library for manage multiple nested <select>, made in vanillajs",
-            "nested-selects-react": "Component/Library for react that makes it easy to handle multiple nested <select>. Documentation included"
+            "nested-selects": "Library for manage multiple nested <select>, made in vanillajs.",
+            "nested-selects-react": "Component/Library for react that makes it easy to handle multiple nested <select>. Documentation included."
         },
         "github-repos-link": "See more projects"
+    },
+
+    "education": {
+        "title": "Education",
+        "description-a": "Most of my knowledge I have acquired online, I am a self-taught person who trains with courses, tutorials, reading code and above all a lot of practice.",
+        "description-b": "The platforms that I use the most to train are platzi and udemy.",
+        "subtitle": "These are some of my certificates on those platforms:",
+        "certificates": {
+            "frontend": "Frontend Architect",
+            "backend": "JavaScript backend developer",
+            "school": "JavaScript School",
+            "testing": "React testing"
+        }
+    },
+
+    "contact": {
+        "title": "Contact me",
+        "form": {
+            "name": "Name",
+            "name-placeholder": "Your name or company name",
+            "email": "Email",
+            "email-placeholder": "Your email or company email",
+            "message": "Message",
+            "message-placeholder": "Hi Carlos, I want to hire you for (...) \nHey Carlos, I would like to ask you (...)",
+            "send": "Send"
+        },
+        "alerts": {
+            "warning": "Please enter all data",
+            "error": "An error has occurred, please enter the data correctly and try again",
+            "success": "Message sent!" 
+        }
     }
 }

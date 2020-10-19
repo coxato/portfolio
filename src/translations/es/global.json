@@ -30,13 +30,44 @@
     "portfolio": {
         "title": "Portafolio",
         "descriptions": {
-            "Img2save": "Sitio web para descargar fondos de pantalla, funciona usando las API's de unsplash, pixabay y flickr",
-            "MasPlay": "Web para negocio de alquiler de videojuegos, los usuarios se registran y optienen puntos para canjearlos por premios",
-            "Guárico": "Web sobre el estado Guárico ubicado en Venezuela, hecho con Django",
-            "Chat messages": "Chat en tiempo real usando socket.io y react",
+            "Img2save": "Sitio web para descargar fondos de pantalla, funciona usando las API's de unsplash, pixabay y flickr.",
+            "MasPlay": "Web para negocio de alquiler de videojuegos, los usuarios se registran y optienen puntos para canjearlos por premios.",
+            "Guárico": "Web sobre el estado Guárico ubicado en Venezuela, hecho con Django.",
+            "Chat messages": "Chat en tiempo real usando socket.io y react.",
             "nested-selects": "Librería para manejar múltiples <select> anidados, hecho en vanillajs",
-            "nested-selects-react": "Librería/componente para react que permite manejar múltiples <select> anidados. Documentación incluida"
+            "nested-selects-react": "Librería/componente para react que permite manejar múltiples <select> anidados. Documentación incluida."
         },
         "github-repos-link": "Ver más proyectos"
+    },
+
+    "education": {
+        "title": "Educación",
+        "description-a": "La mayoría de mis conocimientos los he adquirido de manera online, soy un autodidacta que se entrena con cursos, tutoriales, leyendo código y sobre todo mucha práctica.",
+        "description-b": "Las plataformas que más uso para formarme son platzi y udemy.",
+        "subtitle": "Aqui estan algunos de mis certificados en dichas plataformas:",
+        "certificates": {
+            "frontend": "Arquitecto frontend",
+            "backend": "Desarrollador backend con JavaScript",
+            "school": "Escuela de JavaScript",
+            "testing": "React testing"
+        }
+    },
+
+    "contact": {
+        "title": "Contáctame",
+        "form": {
+            "name": "Nombre",
+            "name-placeholder": "Tu nombre o nombre de la empresa",
+            "email": "Correo",
+            "email-placeholder": "Correo electrónico",
+            "message": "Mensaje",
+            "message-placeholder": "Hola Carlos, te quiero contratar para (...) \nOye Carlos quisiera preguntarte (...)",
+            "send": "Enviar"
+        },
+        "alerts": {
+            "warning": "Por favor introduzca todos los datos",
+            "error": "Ha ocurrido un error, ingrese bien los datos e intente de nuevo",
+            "success": "Mensaje enviado!" 
+        }
     }
 }

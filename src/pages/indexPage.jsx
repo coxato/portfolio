@@ -5,6 +5,9 @@ import Hero from '../components/Hero/hero';
 import About from '../components/About/about';
 import Skills from '../components/Skills/skills';
 import Portfolio from '../components/Portfolio/portfolio';
+import Education from '../components/Education/education';
+import Contact from '../components/Contact/contact';
+import Footer from '../components/Footer/footer';
 
 const IndexPage = () => {
 
@@ -15,6 +18,9 @@ const IndexPage = () => {
             <About />
             <Skills />
             <Portfolio />
+            <Education />
+            <Contact />
+            <Footer />
         </div>
     );
 }

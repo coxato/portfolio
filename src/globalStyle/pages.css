@@ -44,3 +44,20 @@ progress::-moz-progress-bar {
 ::-webkit-scrollbar-thumb:hover {
     background: #1b252c;
 }
+
+/* text-selection */
+p::selection,
+div::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+a::selection{
+    color: var(--black);
+    background: var(--amber);
+}
+
+/* sweet alert */
+.swal-text {
+    font-family: var(--sans-pro);
+    font-weight: bold;
+  }

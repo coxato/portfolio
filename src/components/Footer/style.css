@@ -1,0 +1,19 @@
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    padding: 15px 30px;
+    background: var(--dark-blue);
+    color: var(--light);
+}
+
+.footer-social{
+    display: flex;
+}
+
+.footer-social img{
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
