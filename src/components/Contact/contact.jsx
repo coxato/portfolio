@@ -43,9 +43,16 @@ const Contact = () => {
                 body: JSON.stringify(data)
             });
             const json = await response.json();
-            
             setLoading(false);
-            if(json.ok) showSuccessMessage({ title: t("contact.alerts.success") });
+            // all ok reset state, not 'ok' show error alert
+            if(json.ok){
+                showSuccessMessage({ title: t("contact.alerts.success") });
+                setData({
+                    name: '',
+                    email: '',
+                    message: ''
+                });
+            }
             else showErrorMessage({ title: '', text: t("contact.alerts.error") });
 
         } catch (error) {
