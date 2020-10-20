@@ -1,2 +1,2 @@
 # Personal portfolio
-you can see it: url
+you can see it: https://carlosedua.github.io/portfolio/
