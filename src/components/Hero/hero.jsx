@@ -42,7 +42,7 @@ const Hero = () => {
                         </a>
                     </div>
                     <div className="social-item">
-                        <a href="https://twitter.com/Carlos40947924" target="_blank" rel="noopener noreferrer">
+                        <a href="https://twitter.com/CarlosCoxato" target="_blank" rel="noopener noreferrer">
                             <img src={twitterImg} alt="carlos martinez twitter"/>
                         </a>
                     </div>

@@ -19,7 +19,7 @@ const Footer = () => {
                 <a href="https://www.instagram.com/coxato/" target="_blank" rel="noopener noreferrer">
                     <img src={instagramImg} alt="carlos martinez instagram"/>
                 </a>
-                <a href="https://twitter.com/Carlos40947924" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/CarlosCoxato" target="_blank" rel="noopener noreferrer">
                     <img src={twitterImg} alt="carlos martinez twitter"/>
                 </a>
             </div>
