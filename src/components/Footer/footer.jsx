@@ -3,6 +3,7 @@ import React from 'react';
 import githubImg from '../../img/github-white.png';
 import instagramImg from '../../img/instagram-white.png';
 import twitterImg from '../../img/twitter-white.png';
+import linkedinImg from '../../img/linkedin-white.png';
 
 import './style.css';
 
@@ -21,6 +22,9 @@ const Footer = () => {
                 </a>
                 <a href="https://twitter.com/CarlosCoxato" target="_blank" rel="noopener noreferrer">
                     <img src={twitterImg} alt="carlos martinez twitter"/>
+                </a>
+                <a href="https://www.linkedin.com/in/carlos-eduardo-mart%C3%ADnez/" target="_blank" rel="noopener noreferrer">
+                    <img src={linkedinImg} alt="carlos martinez linkedin"/>
                 </a>
             </div>
         </div>

@@ -6,6 +6,7 @@ import 'particles.js/particles';
 import githubImg from '../../img/github.png';
 import instagramImg from '../../img/instagram.svg';
 import twitterImg from '../../img/twitter.svg';
+import linkedinImg from '../../img/linkedin.svg';
 // css
 import './hero.css';
 
@@ -44,6 +45,11 @@ const Hero = () => {
                     <div className="social-item">
                         <a href="https://twitter.com/CarlosCoxato" target="_blank" rel="noopener noreferrer">
                             <img src={twitterImg} alt="carlos martinez twitter"/>
+                        </a>
+                    </div>
+                    <div className="social-item">
+                        <a href="https://www.linkedin.com/in/carlos-eduardo-mart%C3%ADnez/" target="_blank" rel="noopener noreferrer">
+                            <img src={linkedinImg} alt="carlos martinez linkedin"/>
                         </a>
                     </div>
                 </div>
