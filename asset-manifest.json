@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "./static/css/main.6d092831.chunk.css",
-    "main.js": "./static/js/main.a2d40236.chunk.js",
-    "main.js.map": "./static/js/main.a2d40236.chunk.js.map",
+    "main.js": "./static/js/main.bf88904c.chunk.js",
+    "main.js.map": "./static/js/main.bf88904c.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.916853f0.js",
     "runtime-main.js.map": "./static/js/runtime-main.916853f0.js.map",
-    "static/js/2.e2c1f3f2.chunk.js": "./static/js/2.e2c1f3f2.chunk.js",
-    "static/js/2.e2c1f3f2.chunk.js.map": "./static/js/2.e2c1f3f2.chunk.js.map",
+    "static/js/2.f53bfbab.chunk.js": "./static/js/2.f53bfbab.chunk.js",
+    "static/js/2.f53bfbab.chunk.js.map": "./static/js/2.f53bfbab.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.43ecea2f01279753fccec993a318d99d.js": "./precache-manifest.43ecea2f01279753fccec993a318d99d.js",
+    "precache-manifest.c578a4287aa5114b6ab5b31c6c5cd23c.js": "./precache-manifest.c578a4287aa5114b6ab5b31c6c5cd23c.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.6d092831.chunk.css.map": "./static/css/main.6d092831.chunk.css.map",
-    "static/js/2.e2c1f3f2.chunk.js.LICENSE.txt": "./static/js/2.e2c1f3f2.chunk.js.LICENSE.txt",
+    "static/js/2.f53bfbab.chunk.js.LICENSE.txt": "./static/js/2.f53bfbab.chunk.js.LICENSE.txt",
     "static/media/book.png": "./static/media/book.286ccc45.png",
     "static/media/chat.png": "./static/media/chat.99b17163.png",
     "static/media/close.svg": "./static/media/close.445c5ad9.svg",
@@ -26,6 +26,7 @@
     "static/media/instagram-white.png": "./static/media/instagram-white.623a8580.png",
     "static/media/instagram.svg": "./static/media/instagram.ea056d93.svg",
     "static/media/javascript.svg": "./static/media/javascript.f2bd0c0c.svg",
+    "static/media/linkedin.svg": "./static/media/linkedin.53bff429.svg",
     "static/media/masplay.png": "./static/media/masplay.d779edcf.png",
     "static/media/menu.svg": "./static/media/menu.416e0bbe.svg",
     "static/media/mongodb.svg": "./static/media/mongodb.4643494b.svg",
@@ -42,8 +43,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.916853f0.js",
-    "static/js/2.e2c1f3f2.chunk.js",
+    "static/js/2.f53bfbab.chunk.js",
     "static/css/main.6d092831.chunk.css",
-    "static/js/main.a2d40236.chunk.js"
+    "static/js/main.bf88904c.chunk.js"
   ]
 }
