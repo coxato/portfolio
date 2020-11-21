@@ -6,6 +6,7 @@ import ChangeLanguage from './changeLanguage';
 // images
 import menuSVG from '../../img/menu.svg';
 import closeSVG from '../../img/close.svg';
+import myLogo from '../../img/mylogo.svg';
 // style
 import './nav.css';
 
@@ -37,6 +38,11 @@ const Nav = () => {
 
     return (
         <div id="nav-container">
+
+            <div id="myLogo-nav">
+                <img src={myLogo} alt="Carlos Martinez logo"/>
+            </div>
+
             <div className="hamburguer" onClick={showMenu}>
                 <img src={menuSVG} alt="hamburguer Carlos Martinez"/>
             </div>

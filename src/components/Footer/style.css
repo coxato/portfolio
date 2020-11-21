@@ -18,6 +18,22 @@
     margin-right: 15px;
 }
 
+#copyright{
+    display: flex;
+    align-items: center;
+}
+
+#copyright p{
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+#myLogo-footer{
+    width: 50px;
+    margin-right: 18px;
+}
+
 @media screen and (max-width: 400px){
     #footer{
         padding: 15px 18px;

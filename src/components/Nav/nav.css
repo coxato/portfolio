@@ -43,6 +43,17 @@
     margin-right: 15px;
 }
 
+#myLogo-nav{
+    width: 40px;
+    position: absolute;
+    left: 15px;
+    top: 4px;
+}
+
+#myLogo-nav img{
+    width: 100%;
+}
+
 .nav-link{
     padding: 8px 7px;
     margin: 0 10px;
@@ -100,6 +111,11 @@
 @media screen and (max-width: 780px){
     #nav-container{
         justify-content: flex-start;
+    }
+
+    #myLogo-nav{
+        right: 15px;
+        left: inherit;
     }
 
     #nav-center{

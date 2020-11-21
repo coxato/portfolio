@@ -48,7 +48,7 @@ const Hero = () => {
                         </a>
                     </div>
                     <div className="social-item">
-                        <a href="https://www.linkedin.com/in/carlos-eduardo-mart%C3%ADnez/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/carloscoxato" target="_blank" rel="noopener noreferrer">
                             <img src={linkedinImg} alt="carlos martinez linkedin"/>
                         </a>
                     </div>
