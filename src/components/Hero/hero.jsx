@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import SmoothScroll from 'smooth-scroll';
+// import 'particles.js/particles';
 import 'particles.js/particles';
 // images
 import githubImg from '../../img/github.png';
@@ -33,23 +34,23 @@ const Hero = () => {
                 <div className="hero-description">{t('hero.description')}</div>
                 <div className="social-container">
                     <div className="social-item">
-                        <a href="https://github.com/carlosEdua" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/coxato" target="_blank" rel="noopener noreferrer">
                             <img src={githubImg} alt="carlos martinez github"/>
                         </a>
                     </div>
                     <div className="social-item">
                         <a href="https://www.instagram.com/coxato/" target="_blank" rel="noopener noreferrer">
-                            <img src={instagramImg} alt="carlos martinez instagram"/>
+                            <img src={instagramImg} alt="carlos martinez instagram coxato"/>
                         </a>
                     </div>
                     <div className="social-item">
                         <a href="https://twitter.com/CarlosCoxato" target="_blank" rel="noopener noreferrer">
-                            <img src={twitterImg} alt="carlos martinez twitter"/>
+                            <img src={twitterImg} alt="carlos martinez twitter coxato"/>
                         </a>
                     </div>
                     <div className="social-item">
-                        <a href="https://www.linkedin.com/in/carloscoxato" target="_blank" rel="noopener noreferrer">
-                            <img src={linkedinImg} alt="carlos martinez linkedin"/>
+                        <a href="https://www.linkedin.com/in/coxato" target="_blank" rel="noopener noreferrer">
+                            <img src={linkedinImg} alt="carlos martinez linkedin coxato"/>
                         </a>
                     </div>
                 </div>

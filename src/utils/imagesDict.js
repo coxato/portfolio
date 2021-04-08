@@ -11,6 +11,7 @@ import mongoDB from '../img/mongodb.svg';
 import mysql from '../img/mysql.svg';
 import php from '../img/php.svg';
 import express from '../img/expressjs.svg';
+import nextjs from '../img/next.png';
 import firebase from '../img/firebase.svg';
 import socketio from '../img/socket-io.svg';
 import socketioWhite from '../img/socket-io-white.svg';
@@ -21,6 +22,7 @@ import guarico from '../img/projects/guarico.png';
 import nestedSelects from '../img/projects/book.png';
 import nestedSelectsReact from '../img/projects/nested-selects-react.png';
 import chat from '../img/projects/chat.png';
+import mercadoabierto from '../img/projects/mercadoabierto.png';
 
 
 const lngLogo = {
@@ -39,6 +41,7 @@ const lngLogo = {
     socketio,
     socketioWhite,
     redux,
+    nextjs
 }
 
 const projectsImgs = {
@@ -47,7 +50,8 @@ const projectsImgs = {
     guarico,
     nestedSelects,
     nestedSelectsReact,
-    chat
+    chat,
+    mercadoabierto
 }
 
 export {

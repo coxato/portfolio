@@ -18,6 +18,11 @@
     font-weight: bold;
 }
 
+.download-cv a{
+    color: var(--dark-blue);
+    background: var(--amber);
+}
+
 @media screen and (max-width: 1024px){
     .about-description-container{
         width: 60%;

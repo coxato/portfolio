@@ -7,6 +7,7 @@ import Project from './project';
 import { projects } from './myProjects';
 // image
 import externalIcon from '../../img/external-link.svg';
+
 // style
 import './style.css';
 
@@ -22,7 +23,7 @@ const Portfolio = () => {
                 }
             </div>
             <div id="github-projects-link">
-                <a href="https://github.com/carlosEdua?tab=repositories&q=&type=source&language=" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/coxato?tab=repositories&q=&type=source&language=&sort=stargazers" target="_blank" rel="noopener noreferrer">
                     {t("portfolio.github-repos-link")}
                     <img src={externalIcon} alt="carlosedua github"/>
                 </a>

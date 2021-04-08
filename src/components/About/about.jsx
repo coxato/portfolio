@@ -25,6 +25,10 @@ const About = () => {
                     }
                 </p>
                 <p>{t("about-me.description-d")}</p>
+
+                <div className="download-cv">
+                    <a href="/CV.pdf" download>{t("about-me.cv")}</a>
+                </div>
            </div>
         </div>
      );

@@ -16,7 +16,7 @@ const Footer = () => {
                 <p>&copy; {new Date().getFullYear()} Carlos Martínez</p>
             </div>
             <div className="footer-social">
-                <a href="https://github.com/carlosEdua" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/coxato" target="_blank" rel="noopener noreferrer">
                     <img src={githubImg} alt="carlos martinez github"/>
                 </a>
                 <a href="https://www.instagram.com/coxato/" target="_blank" rel="noopener noreferrer">
@@ -25,7 +25,7 @@ const Footer = () => {
                 <a href="https://twitter.com/CarlosCoxato" target="_blank" rel="noopener noreferrer">
                     <img src={twitterImg} alt="carlos martinez twitter"/>
                 </a>
-                <a href="https://www.linkedin.com/in/carloscoxato" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/coxato" target="_blank" rel="noopener noreferrer">
                     <img src={linkedinImg} alt="carlos martinez linkedin"/>
                 </a>
             </div>

@@ -3,7 +3,7 @@ import React from 'react';
 import Nav from '../components/Nav/nav';
 import Hero from '../components/Hero/hero';
 import About from '../components/About/about';
-import Skills from '../components/Skills/skills';
+// import Skills from '../components/Skills/skills';
 import Portfolio from '../components/Portfolio/portfolio';
 import Education from '../components/Education/education';
 import Contact from '../components/Contact/contact';
@@ -16,7 +16,7 @@ const IndexPage = () => {
             <Nav />
             <Hero />
             <About />
-            <Skills />
+            {/* <Skills /> */}
             <Portfolio />
             <Education />
             <Contact />

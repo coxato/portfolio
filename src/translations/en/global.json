@@ -18,7 +18,8 @@
         "description-a": "Hi!, I'm Carlos Martínez a web developer specialized in JavaScript, I have more than",
         "description-b": "years of experience in building modern web applications. I am currently",
         "description-c": "years old, I keep learning and improving every day because technology never stops.",
-        "description-d": "I specialize more than anything in the MERN stack (mongodb, express, react, node), but I also have knowledge of python and other libraries."
+        "description-d": "I specialize more than anything in the MERN stack (Mongodb, Express, React, Node), but I also use python and MySQL in my projects.",
+        "cv": "Download CV"
     },
 
     "skills": {
@@ -35,9 +36,14 @@
             "Guárico": "Website for the Guárico state, located in Venezuela, make with Django.",
             "Chat messages": "Real time chat using socket.io and react",
             "nested-selects": "Library for manage multiple nested <select>, made in vanillajs.",
-            "nested-selects-react": "Component/Library for react that makes it easy to handle multiple nested <select>. Documentation included."
+            "nested-selects-react": "Component/Library for react that makes it easy to handle multiple nested <select>. Documentation included.",
+            "Mercadoabierto": "Mercadolibre marketplace clone, browse among many products, you can register to buy or sell them"
         },
-        "github-repos-link": "See more projects"
+        "github-repos-link": "See more projects",
+        "buttons": {
+            "code": "Code",
+            "live": "Live"
+        }
     },
 
     "education": {

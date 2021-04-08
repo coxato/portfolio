@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 50px 0;
+    padding: 65px 0;
     background: var(--dark-blue);
 }
 
@@ -12,7 +12,7 @@
     display: grid;
     gap: 20px 40px;
     grid-template-columns: repeat(3, 400px);
-    grid-template-rows: repeat(2, 209px);
+    /* grid-template-rows: repeat(2, 209px); */
     padding: 45px 0;
 }
 
@@ -54,7 +54,7 @@
     transition: .2s;
 }
 
-.project-overlay a{
+.overlay-child{
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -106,8 +106,44 @@
 }
 
 
+.project-buttons{
+    display: flex;
+    justify-content: center;
+}
 
+.project-buttons a{
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0px 1px 4px 1px transparent;
+    transition: 150ms;
+    font-weight: 600;
+}
 
+.project-buttons a:hover{
+    box-shadow: 0px 1px 4px 1px black;
+}
+
+.btn-live{
+    background: var(--amber);
+}
+
+.btn-code{
+    background: var(--white);
+}
+
+.project-buttons img{
+    width: 25px;
+    height: 25px;
+    margin-left: 7px;
+}
 
 
 
@@ -115,44 +151,50 @@
 
 @media screen and (max-width: 1200px){
     .projects-container{
-        grid-template-columns: repeat(2, 420px);
-        grid-template-rows: repeat(2, 229px);
+        grid-template-columns: 600px;
     }
     .project-image{
-        width: 420px;
-        height: 229px;
+        width: 600px;
+        height: 300px;
+    }
+    .project-text{
+        font-size: 20px;
     }
 }
 
 @media screen and (max-width: 950px){
     .projects-container{
-        grid-template-columns: repeat(2, 350px);
-        grid-template-rows: repeat(2, 175px);
+        grid-template-columns: 500px;
     }
     .project-image{
-        width: 350px;
-        height: 170px;
+        width: 500px;
+        height: 250px;
+    }
+    .project-text{
+        font-size: 18px;
     }
 }
 
 @media screen and (max-width: 790px){
     .projects-container{
-        grid-template-columns: 422px;
-        grid-template-rows: 223px;
+        grid-template-columns: 450px;
     }
     .project-image{
-        width: 420px;
-        height: 220px;
+        width: 450px;
+        height: 225px;
     }
 }
 
 @media screen and (max-width: 500px){
     .projects-container{
-        grid-template-columns: 304px;
-        grid-template-rows: 164px;
+        grid-template-columns: 310px;
+        grid-template-rows: 200px;
     }
     .project-image{
-        width: 300px;
-        height: 160px;
+        width: 310px;
+        height: 190px;
+    }
+    .project-text{
+        font-size: 14px;
     }
 }

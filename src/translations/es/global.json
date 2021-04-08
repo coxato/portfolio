@@ -18,7 +18,8 @@
         "description-a": "Hola!, soy Carlos Martínez, desarrollador web especializado en javascript, cuento con mas de",
         "description-b": "años de experiencia en la construcción de aplicaciones web modernas. Actualmente tengo",
         "description-c": "años de edad, sigo aprendiendo y mejorando cada día ya que la tecnología nunca para.",
-        "description-d": "Me especializo mas que nada en el stack MERN (mongodb, express, react, node), pero también tengo conocimientos de python y otras librerías."
+        "description-d": "Me especializo mas que nada en el stack MERN (Mongodb, Express, React, Node), pero también uso python y MySQL en mis proyectos.",
+        "cv": "Descargar CV"
     },
 
     "skills": {
@@ -35,9 +36,14 @@
             "Guárico": "Web sobre el estado Guárico ubicado en Venezuela, hecho con Django.",
             "Chat messages": "Chat en tiempo real usando socket.io y react.",
             "nested-selects": "Librería para manejar múltiples <select> anidados, hecho en vanillajs",
-            "nested-selects-react": "Librería/componente para react que permite manejar múltiples <select> anidados. Documentación incluida."
+            "nested-selects-react": "Librería/componente para react que permite manejar múltiples <select> anidados. Documentación incluida.",
+            "Mercadoabierto": "El mejor clon de Mercadolibre, navega entre muchos productos, puedes registrarte para comprar o vender"
         },
-        "github-repos-link": "Ver más proyectos"
+        "github-repos-link": "Ver más proyectos",
+        "buttons": {
+            "code": "Código",
+            "live": "visitar"
+        }
     },
 
     "education": {

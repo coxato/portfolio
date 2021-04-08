@@ -55,9 +55,9 @@ const Nav = () => {
                 <div className="nav-link" onClick={showMenu}>
                     <a data-scroll href="#about">{t("nav.about")}</a>
                 </div>
-                <div className="nav-link" onClick={showMenu}>
+                {/* <div className="nav-link" onClick={showMenu}>
                     <a data-scroll href="#skills" >{t("nav.skills")}</a>
-                </div>
+                </div> */}
                 <div className="nav-link" onClick={showMenu}>
                     <a data-scroll href="#portfolio">{t("nav.portfolio")}</a>
                 </div>
