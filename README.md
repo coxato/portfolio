@@ -1,2 +1,2 @@
 # Personal portfolio
-you can see it: https://carlosedua.github.io/portfolio/
+you can see it: https://coxato.dev
