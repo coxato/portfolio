@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 import SectionTitle from '../Titles/sectionTitle';
 // utils
 import { getAge } from '../../utils/dates';
+// images
+import DownloadIcon from '../../img/download.svg'
 // css
 import './about.css';
 
@@ -26,9 +28,10 @@ const About = () => {
                 </p>
                 <p>{t("about-me.description-d")}</p>
 
-                <div className="download-cv">
-                    <a href="/CV.pdf" download>{t("about-me.cv")}</a>
-                </div>
+                <a className="download-cv" href="/CV.pdf" download>
+                    <div>{t("about-me.cv")}</div>
+                    <img src={DownloadIcon} alt="Carlos Martinez CV curriculum" />
+                </a>
            </div>
         </div>
      );

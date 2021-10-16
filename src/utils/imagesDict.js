@@ -15,6 +15,7 @@ import nextjs from '../img/next.png';
 import firebase from '../img/firebase.svg';
 import socketio from '../img/socket-io.svg';
 import socketioWhite from '../img/socket-io-white.svg';
+import wordpress from '../img/wordpress.svg';
 // projects images
 import img2save from '../img/projects/img2save.png';
 import masplay from '../img/projects/masplay.png';
@@ -23,6 +24,8 @@ import nestedSelects from '../img/projects/book.png';
 import nestedSelectsReact from '../img/projects/nested-selects-react.png';
 import chat from '../img/projects/chat.png';
 import mercadoabierto from '../img/projects/mercadoabierto.png';
+import aquetasa from '../img/projects/aquetasa.png';
+import libraryaudio from '../img/projects/libraryaudio.png';
 
 
 const lngLogo = {
@@ -41,7 +44,8 @@ const lngLogo = {
     socketio,
     socketioWhite,
     redux,
-    nextjs
+    nextjs,
+    wordpress
 }
 
 const projectsImgs = {
@@ -51,7 +55,9 @@ const projectsImgs = {
     nestedSelects,
     nestedSelectsReact,
     chat,
-    mercadoabierto
+    mercadoabierto,
+    aquetasa,
+    libraryaudio
 }
 
 export {

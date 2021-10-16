@@ -18,10 +18,18 @@
     font-weight: bold;
 }
 
-.download-cv a{
+.download-cv{
+    display: flex;
+    align-items: center;
     color: var(--dark-blue);
-    background: var(--amber);
+    margin-right: 10px;
+    text-decoration: none;
 }
+
+.download-cv img{
+    margin-left: 5px;
+}
+
 
 @media screen and (max-width: 1024px){
     .about-description-container{

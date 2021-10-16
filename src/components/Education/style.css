@@ -77,7 +77,7 @@
 @media screen and (max-width: 960px){
     .education-text{
         font-size: 20px;
-        padding: 15px 100px;
+        padding: 15px 80px;
     }
     .certificates-container{
         grid-template-columns: 1fr 1fr;
