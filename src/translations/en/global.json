@@ -15,8 +15,8 @@
 
     "about-me": {
         "title": "About me",
-        "description-a": "Hi!, I'm Carlos Martínez a developer specialized in JavaScript, I have more than",
-        "description-b": "years of experience in building modern web applications and apps with React Native. I am currently",
+        "description-a": "Hi!, I'm Carlos Martínez a software developer specialized in JavaScript, I have more than",
+        "description-b": "years of experience building modern web applications and mobile apps with React Native. I am currently",
         "description-c": "years old, I keep learning and improving every day because technology never stops.",
         "description-d": "I specialize more than anything in the MERN stack (Mongodb, Express, React, Node), but I also use python and MySQL in my projects.",
         "cv": "Download CV"
@@ -39,7 +39,8 @@
             "nested-selects-react": "Component/Library for react that makes it easy to handle multiple nested <select>. Documentation included.",
             "Mercadoabierto": "A Mercadolibre marketplace clone, browse among many products, you can register to buy or sell",
             "Aquetasa": "App for calculate the dollar price in Venezuela with different exchange rates.",
-            "LibraryAudio": "Web to download background music tracks that can be used in advertising videos."
+            "LibraryAudio": "Web to download background music tracks that can be used in advertising videos.",
+            "Hazmoona": "Create invitations cards for holidays, with a lot of beautiful designs."
         },
         "madeWith": "Made with",
         "github-repos-link": "See more projects",

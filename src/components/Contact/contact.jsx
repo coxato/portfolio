@@ -8,6 +8,9 @@ import {
     showErrorMessage, 
     showWarningMessage 
 } from '../../utils/sweetAlert';
+// config
+import { formSpreeKey } from '../../config'; 
+// import { formSpreeKey } from '../../config.example.js'; // rename to config.js
 // style
 import './styles.css';
 
@@ -35,7 +38,7 @@ const Contact = () => {
 
         // send data to formspree
         try {
-            const response = await fetch('https://formspree.io/f/{YOUR_KEY}', {
+            const response = await fetch(`https://formspree.io/f/${formSpreeKey}`, {
                 method: 'POST',
                 headers: {
                     "Accept": "application/json"

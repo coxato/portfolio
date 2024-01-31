@@ -26,6 +26,7 @@ import chat from '../img/projects/chat.png';
 import mercadoabierto from '../img/projects/mercadoabierto.png';
 import aquetasa from '../img/projects/aquetasa.png';
 import libraryaudio from '../img/projects/libraryaudio.png';
+import hazmoona from '../img/projects/hazmoona-ss-1.png';
 
 
 const lngLogo = {
@@ -57,7 +58,8 @@ const projectsImgs = {
     chat,
     mercadoabierto,
     aquetasa,
-    libraryaudio
+    libraryaudio,
+    hazmoona
 }
 
 export {

@@ -23,16 +23,22 @@ const {
     express,
     firebase,
     reactNative, 
-    js, 
+    // js, 
     node,
-    wordpress 
+    wordpress,
     // python, 
-    // mongo, 
+    mongo, 
     // htmlAndCss, 
     // socket
 } = technologies;
 
 export const projects = [
+    {
+        name: 'Hazmoona',
+        photo: projectsImgs['hazmoona'],
+        technologies: [ react, node, mongo, wordpress ],
+        url: 'https://hazmoona.com/',
+    },
     {
         name: 'Mercadoabierto',
         photo: projectsImgs['mercadoabierto'],
@@ -47,18 +53,18 @@ export const projects = [
         playStoreLink: 'https://bit.ly/aquetasa_app'
     },
     {
-        name: 'LibraryAudio',
-        photo: projectsImgs['libraryaudio'],
-        technologies: [ js, wordpress ],
-        url: 'https://libraryaudio.com/',
-    },
-    {
         name: 'nested-selects-react',
         photo: projectsImgs['nestedSelectsReact'],
         technologies: [ react ],
         url: 'https://coxato.github.io/nested-selects-react/',
         code: 'https://github.com/coxato/nested-selects-react'
     },
+    // {
+    //     name: 'LibraryAudio',
+    //     photo: projectsImgs['libraryaudio'],
+    //     technologies: [ js, wordpress ],
+    //     url: 'https://libraryaudio.com/',
+    // },
     // {
     //     name: 'Img2save',
     //     photo: projectsImgs['img2save'],

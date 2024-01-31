@@ -16,7 +16,7 @@
     "about-me": {
         "title": "Acerca de mi",
         "description-a": "Hola!, soy Carlos Martínez, desarrollador especializado en javascript, cuento con mas de",
-        "description-b": "años de experiencia en la construcción de aplicaciones web modernas y apps con React Native. Actualmente tengo",
+        "description-b": "años de experiencia en la construcción de aplicaciones web modernas y apps nativas con React Native. Actualmente tengo",
         "description-c": "años de edad, sigo aprendiendo y mejorando cada día ya que la tecnología nunca para.",
         "description-d": "Me especializo mas que nada en el stack MERN (Mongodb, Express, React, Node), pero también uso python y MySQL en mis proyectos.",
         "cv": "Descargar CV"
@@ -39,7 +39,8 @@
             "nested-selects-react": "Librería/componente para react que permite manejar múltiples <select> anidados. Documentación incluida.",
             "Mercadoabierto": "El mejor clon de Mercadolibre, navega entre muchos productos, puedes registrarte para comprar o vender.",
             "Aquetasa": "Aplicación para calcular fácilmente el precio del dólar en Venezuela usando diferentes tasas de cambio.",
-            "LibraryAudio": "Web para descargar pistas musicales de fondo que pueden ser usadas en videos publicitarios."
+            "LibraryAudio": "Web para descargar pistas musicales de fondo que pueden ser usadas en videos publicitarios.",
+            "Hazmoona": "Crea tarjetas de invitación para las fiestas, con muchos diseños bonitos para escoger."
         },
         "madeWith": "Hecho con",
         "github-repos-link": "Ver más proyectos",
