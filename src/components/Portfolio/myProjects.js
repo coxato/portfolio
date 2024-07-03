@@ -34,11 +34,12 @@ const {
 
 export const projects = [
     {
-        name: 'Hazmoona',
-        photo: projectsImgs['hazmoona'],
+        name: 'Holidays cards',
+        photo: projectsImgs["holidaysCards"],
         technologies: [ react, node, mongo, wordpress ],
-        url: 'https://hazmoona.com/',
+        url: 'https://bit.ly/4eL8C8n',
     },
+    //  the holidays asd  
     {
         name: 'Mercadoabierto',
         photo: projectsImgs['mercadoabierto'],
